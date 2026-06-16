@@ -41,12 +41,16 @@ This Arduino project allows a user to control an LED through the Serial Monitor 
 - Real-time hardware control
 
 ## Circuit Connections
--- LED connections
+-- LED connections : 
+
 LED Anode (+)	to D6 (PWM) through 1kΩ resistor
+
 LED Cathode (-) to	GND 
+
 -- Potentiometer Pin	Arduino Connection
-Left Terminal	to 5V
-Middle Terminal (Wiper) to	A5
+
+Left Terminal	to 5V, 
+Middle Terminal (Wiper) to	A5, 
 Right Terminal	to GND
 
 ## How to Use
